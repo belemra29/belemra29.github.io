@@ -1,0 +1,209 @@
+@charset "utf-8";
+header, nav,main,footer{
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+nav {
+    background-color: #5252FB;
+}
+nav ul li {
+    margin-left: 20px;
+    width: 151px;
+    height: 22px;
+    color: #FFFFFF;
+    list-style-image: none;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #8C8CF8;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+ul li a:visited  {
+    color: #0000CD;
+}
+ul li a:link {
+    color: #FCFCFC;
+}
+ul li a:hover {
+    color: #F4E5F3;
+    padding: 20px;
+    background-color: #0000EF;
+}
+
+
+
+
+
+
+main section {
+    width: 800px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-color: #9E9EF1;
+    margin-top: 20px;
+}
+main section h2 {
+    padding-bottom: 15px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+main section p {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+main {
+    height: auto;
+    background-color: #7474F9;
+}
+
+footer {
+    height: 50px;
+    background-color: #00005E;
+}
+
+
+header{
+    background-color: mediumblue;
+    padding: 20px;
+    height: 100px;
+}
+header h1 {
+    color: #FFF8F8;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+footer h5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+#img1 {
+    width: 50%;
+    height: auto;
+}
+#img0 {
+    width: 300px;
+    height: auto;
+}
+.img_1 {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 20px solid #4444F1;
+}
+#img2 {
+    width: 36%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#img_3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/jpg/imagenes-de-perritos-tiernos.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.p1 {
+    width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.img_filter_size {
+    width: 256px;
+    margin: 5px;
+    height: auto;
+}
+
+.gray_scale {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.opacity {
+    filter: opacity(30%);
+}
+.brillo {
+    filter: brightness(250%);
+}
+.contraste {
+    filter: contrast(180%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocado {
+    filter: blur(5px);
+}
+.sombra {
+    filter: drop-shadow(5px 5px 15px white);
+}
+.centrar {
+    margin: 0 auto;
+    display: block;
+
+}
+.video_1 {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 10px solid #2727F7;
+}
+.img_2 {
+    width: 154px;
+    height: auto;
+    float: right;
+}
+.video2 {
+    width: 50%;
+}
+.animate_delay-2s {
+}
+.animate__delay-3s {
+}
+.animate__delay-2s {
+}
+.animate__slower {
+}
+.img_3 {
+    width: 173px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.animate__delay-5s {
+}
+.animate__repeat-3 {
+}
